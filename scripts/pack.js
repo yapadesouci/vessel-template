@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { execSync } from 'child_process'
-import { mkdirSync, existsSync } from 'fs'
+import { mkdirSync, existsSync, unlinkSync } from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -10,7 +10,7 @@ const outFile = resolve(outDir, 'my-app-dist.zip')
 
 if (!existsSync(outDir)) mkdirSync(outDir)
 
-if (existsSync(outFile)) execSync(`rm "${outFile}"`)
+if (existsSync(outFile)) unlinkSync(outFile)
 
 execSync(
   `zip -r "${outFile}" manifest.json sdk/ apps/`,
