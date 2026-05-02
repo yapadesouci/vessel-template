@@ -1,0 +1,10 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "description": "A Vessel cargo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/pack.js"
+  }
+}

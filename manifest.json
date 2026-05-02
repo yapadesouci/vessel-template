@@ -1,0 +1,10 @@
+{
+  "id": "my-app-dist",
+  "name": "My App",
+  "version": "0.1.0",
+  "author": "",
+  "description": "",
+  "apps": [
+    { "id": "my-app", "name": "My App", "permissions": [] }
+  ]
+}
