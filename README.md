@@ -16,7 +16,7 @@ Minimal starter template for a [Vessel](https://vessel.app) cargo — a sandboxe
    - `"network"` — proxied HTTP requests
    - `"notifications"` — native system notifications
    - `"clipboard"` — write to system clipboard
-6. **Update `scripts/pack.js`** — replace `my-app-dist` with your cargo ID
+6. **Replace `my-app-dist` with your cargo ID** in both `scripts/pack.js` and `.github/workflows/release.yml`
 
 ## Build
 

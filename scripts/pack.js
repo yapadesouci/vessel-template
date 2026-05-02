@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const outDir = resolve(root, 'dist')
-const outFile = resolve(outDir, 'my-app-dist.zip')
+const outFile = resolve(outDir, 'my-app-dist.zip') // rename: replace my-app-dist with your cargo ID (also update the log below)
 
 if (!existsSync(outDir)) mkdirSync(outDir)
 
