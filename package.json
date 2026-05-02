@@ -6,5 +6,8 @@
   "private": true,
   "scripts": {
     "build": "node scripts/pack.js"
+  },
+  "dependencies": {
+    "@vessel-aircodr/sdk": "^0.1.0"
   }
 }

@@ -23,6 +23,7 @@ Minimal starter template for a [Vessel](https://vessel.app) cargo — a sandboxe
 Requires Node.js 18+.
 
 ```bash
+npm install
 npm run build
 ```
 
