@@ -43,7 +43,7 @@ Single-app cargo descriptor with placeholder values:
 - `version`: `"0.1.0"`
 - `author`: `""` (developer fills in)
 - `description`: `""` (developer fills in)
-- `apps`: one entry — `id: "my-app"`, `entry: "apps/my-app/index.html"`, `permissions: []`
+- `apps`: one entry — `id: "my-app"`, `name: "My App"`, `permissions: []` (no `entry` field — the Vessel host resolves `apps/{id}/index.html` by convention, matching vessel-sample's manifest format)
 
 ### apps/my-app/index.html
 
