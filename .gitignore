@@ -1,3 +1,15 @@
-dist/
 node_modules/
-sdk/
+dist/
+out/
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+
+# Claude Code / Superpowers
+.claude/
+.superpowers/
+
+# Docs (local plans)
+docs/superpowers/
