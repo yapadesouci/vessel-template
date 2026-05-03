@@ -8,7 +8,8 @@ out/
 *.iml
 
 # Claude Code / Superpowers
-.claude/
+.claude/*
+!.claude/skills/
 .superpowers/
 
 # Docs (local plans)
